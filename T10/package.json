@@ -1,0 +1,13 @@
+{
+  "name": "t10",
+  "version": "1.0.0",
+  "description": "Exceptions, modules and testing practice",
+  "type": "module",
+  "main": "cart.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
