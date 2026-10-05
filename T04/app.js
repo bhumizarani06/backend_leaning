@@ -139,7 +139,7 @@ console.log(ProductInfo);
 ProductInfo.name="mobile";
 console.log(ProductInfo);
 
-*/
+
 console.log("----- Final Quantity Check -----");
 
 const rawQuantityInput = "3";
@@ -162,3 +162,100 @@ if (rawQuantityInput.trim() === "") {
     console.log(`Total bill: ${lineTotalCents} cents`);
   }
 }
+
+
+
+const spending = 30000;
+
+if (spending >= 25000) {
+    console.log("Reward applicable");
+} else {
+    console.log("No reward");
+}
+
+if (spending >= 100000) {
+    console.log("$35 reward");
+} else if (spending >= 50000) {
+    console.log("$25 reward");
+} else if (spending >= 25000) {
+    console.log("$10 reward");
+} else {
+    console.log("$0 reward");
+}
+
+
+
+
+const spending = 0;
+
+if (spending) {
+    console.log("Spending exists");
+} else {
+    console.log("No spending");
+}
+    
+
+const Day="Monday";
+switch(Day)
+{
+   case "Monday":
+    console.log("start of week");
+    break;
+
+    case "Friday":
+      console.log("End of Week");
+      break;
+
+      default:
+        console.log("normal day");
+}
+        
+
+//loops
+
+//for loop
+for(i=0;i<5;i++)
+{
+  console.log(i)
+}
+
+//while loop
+let i =0;
+ while (i<5)
+ {
+  console.log(i);
+  i++;
+ }
+
+ //for...of 
+
+ const spending =[29000,25000,22000,12000];
+ for(const amount of spending)
+ {
+  console.log(amount);
+ }
+
+ 
+
+ //break
+  const spending =[29000,25000,22000,12000];
+ for(const amount of spending)
+{
+  if(amount === 25000)
+  {
+    break;
+  }
+  console.log(amount);
+}
+
+//continue
+const spending =[29000,25000,22000,12000];
+ for(const amount of spending)
+{
+  if(amount === 0)
+  {
+    continue;
+  }
+  console.log(amount);
+}
+*/
