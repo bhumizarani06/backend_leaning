@@ -1,1 +1,1 @@
-console.log("conflict file");
+console.log("Hello from REAL CONFLICT branch");
