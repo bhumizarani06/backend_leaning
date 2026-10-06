@@ -1,0 +1,13 @@
+{
+  "name": "t16-runtime-cli",
+  "version": "1.0.0",
+  "description": "Node.js CLI cart calculator",
+  "type": "module",
+  "scripts": {
+    "start": "node cart.js",
+    "test": "node cart.js 3"
+  },
+  "dependencies": {
+    "lodash": "^4.18.1"
+  }
+}
