@@ -48,8 +48,7 @@ assert.strictEqual(total, 600);
 console.log("Test 1 passed - normal price");
 
 
-// Test 2: Invalid price
-
+// Test 2: Invalid pri
 // Arrange
 const invalidPrice = -100;
 

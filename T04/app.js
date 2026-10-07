@@ -259,3 +259,4 @@ const spending =[29000,25000,22000,12000];
   console.log(amount);
 }
 */
+
