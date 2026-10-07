@@ -1,0 +1,13 @@
+{
+  "name": "t21",
+  "version": "1.0.0",
+  "description": "Express REST API Product CRUD",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^..."
+  }
+}
