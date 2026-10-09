@@ -1,3 +1,5 @@
+import { startTransition } from "react";
+
 console.log("start");
 
 setTimeout(() =>

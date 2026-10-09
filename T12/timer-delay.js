@@ -12,4 +12,4 @@ while(Date.now() - start < 3000){
 }
 console.log("loop finished");
 
-//start - date - loop finis - time
+

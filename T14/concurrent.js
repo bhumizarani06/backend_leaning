@@ -10,7 +10,7 @@ function loadCustomers() {
 }
 
 function loadProducts() {
-  return new Promise((resolve) => {
+  return new Promise((resolve) => {                    
     setTimeout(() => {
       console.log("Products loaded");
       resolve(["Rice", "Dal", "Bread"]);
