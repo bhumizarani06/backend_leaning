@@ -1,0 +1,5 @@
+@"
+node_modules/
+dist/
+.env
+"@ | Set-Content -Path "T27\.gitignore"
