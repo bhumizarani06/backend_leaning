@@ -1,0 +1,10 @@
+
+{
+  "name": "t32-schema-design",
+  "version": "1.0.0",
+  "description": "T32 schema design practice",
+  "type": "commonjs",
+  "scripts": {
+    "validate": "node validate.js"
+  }
+}

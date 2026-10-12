@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "O101",
+    "customerId": "U101",
+    "items": [
+      {
+        "productId": "P101",
+        "productName": "Keyboard",
+        "priceAtPurchase": 1200,
+        "quantity": 2
+      },
+      {
+        "productId": "P102",
+        "productName": "Mouse",
+        "priceAtPurchase": 500,
+        "quantity": 1
+      }
+    ],
+    "total": 2900,
+    "status": "confirmed"
+  }
+]
