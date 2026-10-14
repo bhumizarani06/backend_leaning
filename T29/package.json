@@ -1,0 +1,12 @@
+
+{
+  "name": "t29-generics",
+  "version": "1.0.0",
+  "description": "TypeScript generics and utility types practice",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo:unsafe": "node dist/unsafe-assertion.js"
+  }
+}

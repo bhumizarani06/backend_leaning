@@ -3,14 +3,13 @@ const users = require("./data/users.json");
 const products = require("./data/products.json");
 const orders = require("./data/orders.json");
 
-// 1. Validate users
 for (const user of users) {
   if (!user._id || !user.name || !user.email) {
     throw new Error("User is missing a required field");
   }
 }
 
-// 2. Validate products
+
 for (const product of products) {
   if (
     !product._id ||
@@ -22,7 +21,7 @@ for (const product of products) {
   }
 }
 
-// 3. Validate orders
+
 for (const order of orders) {
   const userExists = users.some(
     user => user._id === order.customerId
@@ -32,7 +31,7 @@ for (const order of orders) {
     throw new Error(`Customer not found for order ${order._id}`);
   }
 
-  // Check each order item
+  
   for (const item of order.items) {
     const productExists = products.some(
       product => product._id === item.productId
@@ -47,8 +46,7 @@ for (const order of orders) {
     }
   }
 
-  // 4. Check order total after checking all items
-  const calculatedTotal = order.items.reduce(
+  
     (sum, item) => sum + item.priceAtPurchase * item.quantity,
     0
   );
